@@ -1,6 +1,6 @@
 import _axios from "axios";
 
-const REACT_APP_API_URL = "hhttps://doubtstack-production.up.railway.app";
+const REACT_APP_API_URL = "https://doubtstack-production.up.railway.app";
 
 const handleRes = (res) => {
     return res;
