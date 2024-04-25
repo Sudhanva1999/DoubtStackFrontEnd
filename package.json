@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://sudhanva1999.github.io/DoubtStack",
   "private": true,
   "dependencies": {
     "@cypress/instrument-cra": "^1.4.0",
@@ -34,7 +35,9 @@
     "start": "react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +59,7 @@
   },
   "devDependencies": {
     "eslint": "^8.54.0",
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.1.1"
   }
 }
