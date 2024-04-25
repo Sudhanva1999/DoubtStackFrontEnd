@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://sudhanva1999.github.io/DoubtStack",
+  "homepage": "https://sudhanva1999.github.io/DoubtStackFrontEnd",
   "private": true,
   "dependencies": {
     "@cypress/instrument-cra": "^1.4.0",
