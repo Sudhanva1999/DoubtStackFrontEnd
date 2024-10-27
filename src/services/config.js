@@ -1,6 +1,6 @@
 import _axios from "axios";
 
-const REACT_APP_API_URL = "https://doubtstack-production.up.railway.app";
+const REACT_APP_API_URL = "https://dbstack.sudhanvapaturkar.com";
 
 const handleRes = (res) => {
     return res;
